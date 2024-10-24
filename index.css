@@ -1,8 +1,41 @@
 body {
   margin: 0;
+  background-color: #1b244a;
+  text-align: center;
 }
 
 .container {
   display: flex;
   justify-content: space-around;
+}
+
+h3 {
+  color: #eeeeee;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  margin: 70px 0 20px 0;
+}
+
+h4 {
+  font-family: "Cursed Timer ULIL", sans-serif;
+  font-size: 90px;
+  color: #f94f6d;
+  background-color: #080001;
+  border-radius: 5px;
+  width: 155px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px 0 20px 0;
+}
+
+button {
+  font-family: "Cursed Timer ULIL", sans-serif;
+  color: #9aabd8;
+  font-size: 18px;
+  height: 45px;
+  width: 45px;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  background-color: #1b244a;
 }
