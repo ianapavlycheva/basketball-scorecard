@@ -13,3 +13,10 @@ function updateScore(team, points) {
     countGuestEl.textContent = countGuest;
   }
 }
+
+function newGame() {
+  countHome = 0;
+  countHomeEl.textContent = countHome;
+  countGuest = 0;
+  countGuestEl.textContent = countGuest;
+}

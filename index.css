@@ -41,10 +41,32 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background-color: #9aabd8;
+  color: #1b244a;
+  border-color: #f94f6d;
+}
+
+button:focus {
+  outline: 3px solid #f94f6d;
+  outline-offset: 2px;
+}
+
 #new-game {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #f94f6d;
   font-size: 26px;
   height: 65px;
   width: 200px;
+}
+
+#new-game:hover {
+  background-color: #f94f6d;
+  color: #1b244a;
+  border-color: #9aabd8;
+}
+
+#new-game:focus {
+  outline: 3px solid #9aabd8;
+  outline-offset: 2px;
 }
