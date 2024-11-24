@@ -12,11 +12,24 @@ function updateScore(team, points) {
     countGuest += points;
     countGuestEl.textContent = countGuest;
   }
+  highlightLeader();
 }
 
-function newGame() {
+function startNewGame() {
   countHome = 0;
   countHomeEl.textContent = countHome;
   countGuest = 0;
   countGuestEl.textContent = countGuest;
+  highlightLeader();
+}
+
+function highlightLeader() {
+  countHomeEl.style.backgroundColor = "#080001";
+  countGuestEl.style.backgroundColor = "#080001";
+
+  if (countHome > countGuest) {
+    countHomeEl.style.backgroundColor = "#A7F3D0";
+  } else if (countGuest > countHome) {
+    countGuestEl.style.backgroundColor = "#A7F3D0";
+  }
 }
