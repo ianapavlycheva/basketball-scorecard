@@ -15,19 +15,19 @@
       <div>
         <h3>HOME</h3>
         <h4 id="count-home">0</h4>
-        <button onclick="updateScore('home', 1)">+1</button>
-        <button onclick="updateScore('home', 2)">+2</button>
-        <button onclick="updateScore('home', 3)">+3</button>
+        <button data-team="home" data-points="1">+1</button>
+        <button data-team="home" data-points="2">+2</button>
+        <button data-team="home" data-points="3">+3</button>
       </div>
       <div>
         <h3>GUEST</h3>
         <h4 id="count-guest">0</h4>
-        <button onclick="updateScore('guest', 1)">+1</button>
-        <button onclick="updateScore('guest', 2)">+2</button>
-        <button onclick="updateScore('guest', 3)">+3</button>
+        <button data-team="guest" data-points="1">+1</button>
+        <button data-team="guest" data-points="2">+2</button>
+        <button data-team="guest" data-points="3">+3</button>
       </div>
     </div>
-    <button id="new-game" onclick="startNewGame()">New Game</button>
+    <button id="new-game">New Game</button>
     <script src="index.js"></script>
   </body>
 </html>
